@@ -664,8 +664,8 @@
         e.preventDefault();
     });
 
-    // Disable certain keyboard shortcuts
-    document.onkeydown = function(e) {
+    // Disable specific keyboard shortcuts
+    document.addEventListener('keydown', function(e) {
         // Detect Ctrl + U, Ctrl + I
         if (e.ctrlKey && (e.key === 'u' || e.key === 'i')) {
             e.preventDefault();
@@ -675,7 +675,12 @@
         if (e.metaKey && (e.key === 'u' || e.key === 'i')) {
             e.preventDefault();
         }
-    };
+
+        // Detect Windows specific shortcuts
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+            e.preventDefault(); // Prevent opening Developer Tools
+        }
+    });
 
     // Execute the secure function
     executeSecureFunction();
