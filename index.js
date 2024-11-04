@@ -24216,12 +24216,12 @@ const oM = [{
     },
      {
      id: 2,
-        name: "Mentorship with A.I",
+        name: "Mentorship By Dilawar",
         description: "Your Premier and Trusted Learning Partner",
-        image: "images/projects/mentorship-with-ai.jpeg",
+        image: "images/projects/dilawarmentorship.jpeg",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://mentorshipwithai.com/",
-        github: "https://mentorshipwithai.com/",
+        liveview: "https://dilawar.dev/mentorship/",
+        github: "https://dilawar.dev/mentorship/",
         alt: "Your Premier and Trusted Learning Partner"
        
     }, 
