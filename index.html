@@ -637,7 +637,7 @@
     </div>
     <!-- JS to secure code -->
     <script>
-        (function() {
+(function() {
     // Self-Destructing Logic
     function executeSecureFunction() {
         console.log("Executing secure function...");
@@ -666,14 +666,21 @@
 
     // Disable certain keyboard shortcuts
     document.onkeydown = function(e) {
-        if (e.ctrlKey && (e.key === 'u' || e.key === 's' || e.key === 'i')) {
-            return false;
+        // Detect Ctrl + U, Ctrl + I
+        if (e.ctrlKey && (e.key === 'u' || e.key === 'i')) {
+            e.preventDefault();
+        }
+
+        // Detect Option + Command + U, Option + Command + I
+        if (e.metaKey && (e.key === 'u' || e.key === 'i')) {
+            e.preventDefault();
         }
     };
 
     // Execute the secure function
     executeSecureFunction();
 })();
+
     </script>
     <!-- End of JS to secure code -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
