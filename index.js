@@ -24220,8 +24220,8 @@ const oM = [{
         description: "Your Premier and Trusted Learning Partner",
         image: "images/projects/dilawarmentorship.jpeg",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://dilawar.dev/mentorship/",
-        github: "https://dilawar.dev/mentorship/",
+        liveview: "https://mentorship.dilawar.dev",
+        github: "https://mentorship.dilawar.dev",
         alt: "Your Premier and Trusted Learning Partner"
        
     }, 
