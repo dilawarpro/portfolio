@@ -24210,8 +24210,8 @@ const oM = [{
         description: "Your Premier and Trusted Business Partner",
         image: "images/projects/marketoze.jpeg",
         tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://marketoze.company",
-        github: "https://marketoze.company",
+        liveview: "https://marketoze.dilawarpro.com",
+        github: "https://marketoze.dilawarpro.com",
         alt: "Your Premier and Trusted Business Partner"
     },
      {
@@ -24220,8 +24220,8 @@ const oM = [{
         description: "Your Premier and Trusted Learning Partner",
         image: "images/projects/dilawarmentorship.jpeg",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://mentorship.dilawar.dev",
-        github: "https://mentorship.dilawar.dev",
+        liveview: "https://mentorship.dilawarpro.com",
+        github: "https://mentorship.dilawarpro.com",
         alt: "Your Premier and Trusted Learning Partner"
        
     }, 
