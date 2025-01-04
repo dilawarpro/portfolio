@@ -50,6 +50,74 @@
   gtag('config', 'G-GH9XTNZWRZ');
 </script>
 <!-- End of google analytics -->
+<style>
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: linear-gradient(145deg, #25d366, #128c7e);
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 16px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4), -4px -4px 8px rgba(255, 255, 255, 0.2);
+      transition: all 0.3s ease-in-out;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transform: translateY(0);
+      visibility: hidden; /* Initially hidden */
+      opacity: 0; /* Initially transparent */
+    }
+
+    .whatsapp-btn.visible {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 0.5s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .whatsapp-btn i {
+      font-size: 24px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .whatsapp-btn:hover {
+      transform: translateY(-8px);
+      background: linear-gradient(145deg, #1ebe5a, #107952);
+      box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.6), -6px -6px 12px rgba(255, 255, 255, 0.1);
+    }
+
+    .whatsapp-btn:hover i {
+      transform: scale(1.2) rotate(15deg);
+    }
+
+    .whatsapp-btn::after {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      width: 20px;
+      height: 20px;
+      background: rgba(37, 211, 102, 0.5);
+      border-radius: 50%;
+      z-index: -1;
+      animation: pulse 1.5s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.7;
+      }
+      50% {
+        transform: scale(1.5);
+        opacity: 0.3;
+      }
+    }
+  </style>
      <!-- <style>
     .whatsapp-container {
             display: none;
@@ -606,6 +674,12 @@
             </div>
         </section>
         <!-- WhatsApp button container -->
+        <a 
+        href="https://wa.me/1234567890" 
+        target="_blank" 
+        class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Let's Chat
+      </a>
     <!-- <div class="whatsapp-container" id="whatsapp-container">
         <a href="https://api.whatsapp.com/send?phone=923314041010&text=Hi%20Dilawar%2C%20I've%20contacted%20you%20through%20your%20portfolio" target="_blank" rel="noopener noreferrer">
             <img src="images/wabusiness.webp" alt="WAbusiness">
@@ -685,6 +759,18 @@
 
     </script> -->
     <!-- End of JS to secure code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Select the WhatsApp button
+      const whatsappButton = document.querySelector('.whatsapp-btn');
+
+      // Make the button visible after the page has loaded
+      whatsappButton.classList.add('visible');
+
+      // Ensure the button stays fixed on scroll (no need for extra logic as CSS already does this)
+    });
+  </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
