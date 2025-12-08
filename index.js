@@ -24206,13 +24206,13 @@ const oM = [{
     alt: "A simple love calculator to calculate love between lovers or couples"
     }, {
         id: 1,
-        name: "Marketoze",
-        description: "Your Premier and Trusted Business Partner",
-        image: "images/projects/marketoze.jpeg",
+        name: "Rank Master",
+        description: "Elevate your digital presence with experts",
+        image: "images/projects/rank-master.jpg",
         tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://marketoze.dilawarpro.com",
-        github: "https://marketoze.dilawarpro.com",
-        alt: "Your Premier and Trusted Business Partner"
+        liveview: "https://rankmaster.dilawarpro.com",
+        github: "https://rankmaster.dilawarpro.com",
+        alt: "Elevate your digital presence with experts"
     },
      {
      id: 2,
