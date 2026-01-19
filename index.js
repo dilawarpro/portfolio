@@ -24206,13 +24206,13 @@ const oM = [{
     alt: "A simple love calculator to calculate love between lovers or couples"
     }, {
         id: 1,
-        name: "Rank Master",
-        description: "Elevate your digital presence with experts",
-        image: "images/projects/rank-master.jpg",
+        name: "Brandliox",
+        description: "Converting Business into Brands",
+        image: "images/projects/brandliox.jpg",
         tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://rankmaster.dilawarpro.com",
-        github: "https://rankmaster.dilawarpro.com",
-        alt: "Elevate your digital presence with experts"
+        liveview: "https://brandliox.dilawarpro.com",
+        github: "https://brandliox.dilawarpro.com",
+        alt: "Converting Business into Brands"
     },
      {
      id: 2,
