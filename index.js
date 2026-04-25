@@ -24216,13 +24216,13 @@ const oM = [{
     },
      {
      id: 2,
-        name: "Mentorship By Dilawar",
-        description: "Your Premier and Trusted Learning Partner",
-        image: "images/projects/dilawarmentorship.jpeg",
+        name: "Earnifiers",
+        description: "Full-stack Digital Marketing, Prompt Engineering and Web Development Training",
+        image: "images/projects/earnifiers-logo.jpeg",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://mentorship.dilawarpro.com",
-        github: "https://mentorship.dilawarpro.com",
-        alt: "Your Premier and Trusted Learning Partner"
+        liveview: "https://earnifiers.dilawarpro.com",
+        github: "https://earnifiers.dilawarpro.com",
+        alt: "Full-stack Digital Marketing, Prompt Engineering and Web Development Training"
        
     }, 
     
