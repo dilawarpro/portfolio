@@ -24228,7 +24228,7 @@ const oM = [{
     
     {
         id: 3,
-        name: "Portfolio 2024",
+        name: "Portfolio 2022",
         description: "My portfolio website, you're probably looking at right now.",
         image: "images/projects/portfolio.jpg",
         tags: ["webgl", "javascript", "html", "css"],
@@ -24242,12 +24242,12 @@ const oM = [{
     }, 
     {
         id: 4,
-        name: "Pubg Name Generator",
-        description: "A Pubg name generator tool used to create stylish name for pubg mobile and social media apps",
-        image: "images/projects/pubgfont.png",
+        name: "TikTok Downloader",
+        description: "A TikTok downloader is a tool for downloading tiktok videos, audios, captions and hashtags for free.",
+        image: "images/projects/tiktokdownloader.png",
         tags: ["webgl", "javascript", "socketio", "html", "css"],
         twitter: "#",
-        alt: "A Pubg name generator tool used to create stylish name for pubg mobile and social media apps"
+        alt: "A TikTok downloader is a tool for downloading tiktok videos, audios, captions and hashtags for free."
     }
 ],
     aM = {
