@@ -24313,6 +24313,13 @@ class lM {
                     Work in progress
                 </div>
             `, t
+            const element = document.querySelector('div#work-item-orange-button-4');
+if (element) {
+  element.style.cursor = 'pointer';
+  element.addEventListener('click', () => {
+    window.location.href = 'https://tiktokdownloader.dilawarpro.com';
+  });
+}
     }
     renderTags(e) {
         let t = "";
