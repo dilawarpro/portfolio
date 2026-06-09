@@ -26851,8 +26851,11 @@ class ye {
 }
 new ye(document.getElementById("main-canvas"));
 
-document.querySelector('#work-item-orange-button-4').addEventListener('click', function() {
-    window.open('https://tiktokdownloader.dilawarpro.com', '_blank');
-});
-// Optional: Make it look clickable
-document.querySelector('#work-item-orange-button-4').style.cursor = 'pointer';
+// work button 4 redirection
+document.addEventListener('click', function(e) {
+    if (e.target && e.target.id === 'work-item-orange-button-4') {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open('https://tiktokdownloader.dilawarpro.com', '_blank');
+    }
+}, true); // The "true" here is critical - it catches the click before anything else
