@@ -24307,7 +24307,7 @@ class lM {
                  ${e.liveview?`<div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover">Live View</div>`:""}
             ` : e.twitter ? t = `
             <div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover" style="width: 100%; margin: 0;">
-                Live preview
+                Live Preview
             </div>` : t = `
                 <div id="work-item-gray-button-${e.id}" class="work-item-gray-button center" style="width: 100%; background: #a7adb8; cursor: unset;">
                     Work in progress
@@ -26850,12 +26850,3 @@ class ye {
     }
 }
 new ye(document.getElementById("main-canvas"));
-
-// work button 4 redirection
-document.addEventListener('click', function(e) {
-    if (e.target && e.target.id === 'work-item-orange-button-4') {
-        e.preventDefault();
-        e.stopPropagation();
-        window.open('https://tiktokdownloader.dilawarpro.com', '_blank');
-    }
-}, true); // The "true" here is critical - it catches the click before anything else
