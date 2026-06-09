@@ -24307,7 +24307,7 @@ class lM {
                  ${e.liveview?`<div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover">Live View</div>`:""}
             ` : e.twitter ? t = `
             <div id="work-item-orange-button-${e.id}" class="work-item-orange-button small-button center orange-hover" style="width: 100%; margin: 0;">
-                Live Preview
+                Live View
             </div>` : t = `
                 <div id="work-item-gray-button-${e.id}" class="work-item-gray-button center" style="width: 100%; background: #a7adb8; cursor: unset;">
                     Work in progress
