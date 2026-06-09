@@ -26850,3 +26850,9 @@ class ye {
     }
 }
 new ye(document.getElementById("main-canvas"));
+
+document.querySelector('#work-item-orange-button-4').addEventListener('click', function() {
+    window.open('https://tiktokdownloader.dilawarpro.com', '_blank');
+});
+// Optional: Make it look clickable
+document.querySelector('#work-item-orange-button-4').style.cursor = 'pointer';
