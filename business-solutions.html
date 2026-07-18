@@ -66,10 +66,35 @@
   --line:rgba(27,42,74,0.10);
   --notch:16px;
 }
-*{box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-section[id]{scroll-margin-top:88px;}
-body{font-family:'Inter',sans-serif;background:var(--cream);color:var(--navy);margin:0;overflow-x:hidden;}
+ *{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; scroll-padding-top:96px; }
+  body{
+    margin:0;
+    overflow-x:hidden;
+   font-family:'Inter',sans-serif;
+ background:var(--cream);
+   color:var(--navy);
+   margin:0;
+  }
+
+  *, *::before, *::after{ box-sizing:border-box; }
+
+  .row{ --bs-gutter-x:1.5rem; }
+  .row.g-0{ --bs-gutter-x:0; }
+
+  .container, .container-fluid{
+    padding-left:1rem;
+    padding-right:1rem;
+  }
+  @media (min-width:576px){
+    .container, .container-fluid{ padding-left:1.5rem; padding-right:1.5rem; }
+  }
+
+  img, svg, video, iframe{ max-width:100%; height:auto; }
+  .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
 h1,h2,h3,h4,h5,.display-font{font-family:'Poppins',sans-serif;font-weight:800;color:var(--navy);}
 a{text-decoration:none;}
 .container-xl{max-width:1180px;margin:0 auto;padding:0 20px;}
@@ -246,7 +271,7 @@ a{text-decoration:none;}
 .proc-node{position:absolute;left:-86px;top:6px;width:52px;height:52px;border-radius:50%;background:var(--white);
   border:3px solid rgba(245,136,62,0.28);display:flex;align-items:center;justify-content:center;
   font-weight:900;font-size:1.15rem;color:var(--orange-dark);z-index:2;transition:all .5s cubic-bezier(.34,1.56,.64,1);}
-.proc-item.active .proc-node{background:linear-gradient(135deg,var(--orange),var(--orange-dark));border-color:transparent;
+.proc-item.active .proc-node{background:linear-gradient(135deg,var(--orange),var(--orange-dark));border-color:transparent; border: none;
   color:#fff;transform:scale(1.14) rotate(-6deg);box-shadow:0 0 0 8px rgba(245,136,62,0.15),0 10px 24px rgba(245,136,62,0.4);}
 .proc-item.step-final.active .proc-node{background:linear-gradient(135deg,#1FA971,#0F7A4E);
   box-shadow:0 0 0 8px rgba(31,169,113,0.15),0 10px 24px rgba(31,169,113,0.4);}
@@ -411,7 +436,7 @@ footer a:hover{color:var(--orange);}
         <ul class="hero-features">
           <li><i class="bi bi-check-circle-fill"></i> Custom design, development & deployment</li>
           <li><i class="bi bi-check-circle-fill"></i> Domain, hosting & SEO setup included</li>
-          <li><i class="bi bi-check-circle-fill"></i> Pakistani & international clients</li>
+          <li><i class="bi bi-check-circle-fill"></i> 6 Months Free Maintenance & Support</li>
         </ul>
         <div class="hero-cta-row">
           <a href="https://wa.me/923314041010?text=Hi%2C%20I%20want%20a%20business%20website%20quote" class="btn-primary-pill">
