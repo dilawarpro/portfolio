@@ -24216,13 +24216,13 @@ const oM = [{
     },
      {
      id: 2,
-        name: "Earnifiers",
-        description: "Full-stack Digital Marketing, Prompt Engineering and Web Development Training",
-        image: "images/projects/earnifiers-logo.jpeg",
+        name: "DukanSlip",
+        description: "An offline-capable invoice generator app for pharmacies, general stores and other local shops",
+        image: "images/projects/dukanslip.jpg",
         tags: ["javascript", "api", "html", "css"],
-        liveview: "https://earnifiers.dilawarpro.com",
-        github: "https://earnifiers.dilawarpro.com",
-        alt: "Full-stack Digital Marketing, Prompt Engineering and Web Development Training"
+        liveview: "https://dilawarpro.github.io/invoice",
+        github: "https://dilawarpro.github.io/invoice",
+        alt: "An offline-capable invoice generator app for pharmacies, general stores and other local shops"
        
     }, 
     
