@@ -24242,12 +24242,12 @@ const oM = [{
     }, 
     {
         id: 4,
-        name: "TikTok Downloader",
-        description: "A TikTok downloader is a tool for downloading tiktok videos, audios, captions and hashtags for free.",
-        image: "images/projects/tiktokdownloader.png",
+        name: "Cliptoid - TikTok Downloader",
+        description: "Cliptoid is a TikTok downloader for downloading tiktok videos, audios, captions and hashtags for free.",
+        image: "images/projects/cliptoid-tiktok-downloader.png",
         tags: ["webgl", "javascript", "socketio", "html", "css"],
         twitter: "#",
-        alt: "A TikTok downloader is a tool for downloading tiktok videos, audios, captions and hashtags for free."
+        alt: "Cliptoid is a TikTok downloader for downloading tiktok videos, audios, captions and hashtags for free."
     }
 ],
     aM = {
